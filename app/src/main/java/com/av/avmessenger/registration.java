@@ -111,7 +111,7 @@ public class registration extends AppCompatActivity {
                                                      @Override
                                                      public void onSuccess(Uri uri) {
                                                          imageuri = uri.toString();
-                                                         Users users = new Users(id,namee,emaill,Password,imageuri,status);
+                                                          Users users = new Users(id,namee,emaill,Password,imageuri,status);
                                                          reference.setValue(users).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                              @Override
                                                              public void onComplete(@NonNull Task<Void> task) {
@@ -132,7 +132,7 @@ public class registration extends AppCompatActivity {
                                      });
                                  }else {
                                      String status = "Hey I'm Using This Application";
-                                     imageuri = "https://firebasestorage.googleapis.com/v0/b/av-messenger-dc8f3.appspot.com/o/man.png?alt=media&token=880f431d-9344-45e7-afe4-c2cafe8a5257";
+                                     imageuri = "https://firebasestorage.googleapis.com/v0/b/chatapp-3d645.appspot.com/o/man.png?alt=media&token=5186e8c0-2334-43f1-9c4d-387674335036";
                                      Users users = new Users(id,namee,emaill,Password,imageuri,status);
                                      reference.setValue(users).addOnCompleteListener(new OnCompleteListener<Void>() {
                                          @Override

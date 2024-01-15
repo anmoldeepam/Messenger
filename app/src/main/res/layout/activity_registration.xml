@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/two"
+    android:background="@drawable/regis_back"
     tools:context=".registration">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -14,10 +14,10 @@
         android:src="@drawable/photocamera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.657"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <TextView
         android:id="@+id/textView4"
@@ -25,33 +25,17 @@
         android:layout_height="@dimen/_35sdp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center_vertical"
-        android:text="Create New "
+        android:text="Create Account "
         android:textColor="@color/white"
         android:textSize="@dimen/_26sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.125" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="310dp"
-        android:layout_height="41dp"
-        android:fontFamily="@font/poppins_regular"
-        android:gravity="center_vertical"
-        android:text="Account"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_26sdp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.227"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
 
     <TextView
         android:id="@+id/textView7"
@@ -65,7 +49,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.462" />
@@ -82,7 +66,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.572" />
@@ -99,7 +83,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.675" />
@@ -117,14 +101,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.777" />
 
     <EditText
         android:id="@+id/rgemail"
-        android:layout_width="259dp"
+        android:layout_width="230dp"
         android:layout_height="52dp"
         android:ems="10"
         android:hint="Email"
@@ -141,7 +125,7 @@
 
     <EditText
         android:id="@+id/rgpassword"
-        android:layout_width="260dp"
+        android:layout_width="230dp"
         android:layout_height="52dp"
         android:ems="10"
         android:hint="Password"
@@ -158,7 +142,7 @@
 
     <EditText
         android:id="@+id/rgrepassword"
-        android:layout_width="260dp"
+        android:layout_width="230dp"
         android:layout_height="52dp"
         android:ems="10"
         android:hint="Password"
@@ -178,14 +162,16 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_45sdp"
         android:backgroundTint="@color/black"
-        android:text="signup"
+        android:text="SIGNUP"
+        android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/loginbut"
@@ -204,7 +190,7 @@
 
     <EditText
         android:id="@+id/rgusername"
-        android:layout_width="260dp"
+        android:layout_width="230dp"
         android:layout_height="52dp"
         android:ems="10"
         android:hint="UserName"
